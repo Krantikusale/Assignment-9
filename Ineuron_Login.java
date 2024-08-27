@@ -9,7 +9,7 @@ public class Ineuron_Login {
 	public static void main(String[] args) {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://ineuron-courses.vercel.app/login");
-		driver.findElement(By.id("email1")).sendKeys("kAutomtion@yahoo.com");
+		driver.findElement(By.id("email1")).sendKeys("Automtion@yahoo.com");
 		driver.findElement(By.id("password1")).sendKeys("Testing@123");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		//Verify user is created or not (by login with same credentials)
