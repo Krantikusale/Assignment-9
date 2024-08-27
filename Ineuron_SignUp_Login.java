@@ -38,8 +38,10 @@ public class Ineuron_SignUp_Login {
 		Select state1 = new Select(state);
 		state1.selectByValue("Maharashtra");
 		System.out.println("State selection done successfully");
-		driver.findElement(By.xpath("//button[text()='Sign up']")).click();// Verifing Sign up button is enabled & click
-																			// on it
+		driver.findElement(By.xpath("//button[text()='Sign up']")).click();// Verifing Sign up button is enabled & click on it
+		System.out.println("Sign up done successfully");
+		
+																			
 		Thread.sleep(2000);
 
 		driver.findElement(By.id("email1")).sendKeys("Automtion4@yahoo.com");
